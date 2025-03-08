@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.29">
-<file name="/Users/kenjikv/Library/CloudStorage/OneDrive-Personal/Freelance/Maestria/Dirección Estrategica en Ingenieria de Software/V2E5/MODULO III - Pruebas de software/Clases/5. Ejemplos/Git/WhiteBox/src/main/java/org/example/bank/BankAccount.java">
+<file name="C:\msc\03-pruebas-de-software\code\WhiteBox\src\main\java\org\example\bank\Bank.java">
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="12" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="14" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="18" severity="error" message="Line is longer than 80 characters (found 90)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="18" column="5" severity="error" message="Class &apos;Bank&apos; looks like designed for extension (can be subclassed), but the method &apos;createAccount&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Bank&apos; final or making the method &apos;createAccount&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="18" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="18" column="31" severity="error" message="Parameter accountNumber should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="18" column="53" severity="error" message="Parameter owner should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="18" column="67" severity="error" message="Parameter initialBalance should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="20" severity="error" message="Line is longer than 80 characters (found 86)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="22" severity="error" message="Line is longer than 80 characters (found 91)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="25" column="5" severity="error" message="Class &apos;Bank&apos; looks like designed for extension (can be subclassed), but the method &apos;getAccount&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Bank&apos; final or making the method &apos;getAccount&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="25" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="25" column="35" severity="error" message="Parameter accountNumber should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="29" severity="error" message="Line is longer than 80 characters (found 82)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="29" column="5" severity="error" message="Class &apos;Bank&apos; looks like designed for extension (can be subclassed), but the method &apos;transfer&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Bank&apos; final or making the method &apos;transfer&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="29" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="29" column="29" severity="error" message="Parameter fromAccount should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="29" column="49" severity="error" message="Parameter toAccount should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="29" column="67" severity="error" message="Parameter amount should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="C:\msc\03-pruebas-de-software\code\WhiteBox\src\main\java\org\example\bank\BankAccount.java">
 <error line="9" severity="error" message="Line is longer than 80 characters (found 86)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
 <error line="12" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 <error line="13" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
@@ -36,28 +57,7 @@
 <error line="61" column="5" severity="error" message="Class &apos;BankAccount&apos; looks like designed for extension (can be subclassed), but the method &apos;getTransactions&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;BankAccount&apos; final or making the method &apos;getTransactions&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="61" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
 </file>
-<file name="/Users/kenjikv/Library/CloudStorage/OneDrive-Personal/Freelance/Maestria/Dirección Estrategica en Ingenieria de Software/V2E5/MODULO III - Pruebas de software/Clases/5. Ejemplos/Git/WhiteBox/src/main/java/org/example/bank/Bank.java">
-<error line="12" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="14" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
-<error line="18" severity="error" message="Line is longer than 80 characters (found 90)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
-<error line="18" column="5" severity="error" message="Class &apos;Bank&apos; looks like designed for extension (can be subclassed), but the method &apos;createAccount&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Bank&apos; final or making the method &apos;createAccount&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="18" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
-<error line="18" column="31" severity="error" message="Parameter accountNumber should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="18" column="53" severity="error" message="Parameter owner should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="18" column="67" severity="error" message="Parameter initialBalance should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="20" severity="error" message="Line is longer than 80 characters (found 86)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
-<error line="22" severity="error" message="Line is longer than 80 characters (found 91)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
-<error line="25" column="5" severity="error" message="Class &apos;Bank&apos; looks like designed for extension (can be subclassed), but the method &apos;getAccount&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Bank&apos; final or making the method &apos;getAccount&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="25" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
-<error line="25" column="35" severity="error" message="Parameter accountNumber should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="29" severity="error" message="Line is longer than 80 characters (found 82)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
-<error line="29" column="5" severity="error" message="Class &apos;Bank&apos; looks like designed for extension (can be subclassed), but the method &apos;transfer&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Bank&apos; final or making the method &apos;transfer&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="29" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
-<error line="29" column="29" severity="error" message="Parameter fromAccount should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="29" column="49" severity="error" message="Parameter toAccount should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="29" column="67" severity="error" message="Parameter amount should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-</file>
-<file name="/Users/kenjikv/Library/CloudStorage/OneDrive-Personal/Freelance/Maestria/Dirección Estrategica en Ingenieria de Software/V2E5/MODULO III - Pruebas de software/Clases/5. Ejemplos/Git/WhiteBox/src/main/java/org/example/bank/Transaction.java">
+<file name="C:\msc\03-pruebas-de-software\code\WhiteBox\src\main\java\org\example\bank\Transaction.java">
 <error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 <error line="9" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 <error line="10" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
@@ -74,29 +74,8 @@
 <error line="27" column="5" severity="error" message="Class &apos;Transaction&apos; looks like designed for extension (can be subclassed), but the method &apos;getTimestamp&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Transaction&apos; final or making the method &apos;getTimestamp&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="27" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
 </file>
-<file name="/Users/kenjikv/Library/CloudStorage/OneDrive-Personal/Freelance/Maestria/Dirección Estrategica en Ingenieria de Software/V2E5/MODULO III - Pruebas de software/Clases/5. Ejemplos/Git/WhiteBox/src/main/java/org/example/ControlFlowExample.java">
+<file name="C:\msc\03-pruebas-de-software\code\WhiteBox\src\main\java\org\example\Calculator.java">
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
-<error line="5" column="5" severity="error" message="Class &apos;ControlFlowExample&apos; looks like designed for extension (can be subclassed), but the method &apos;checkNumber&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControlFlowExample&apos; final or making the method &apos;checkNumber&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="5" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
-<error line="5" column="31" severity="error" message="Parameter num should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-</file>
-<file name="/Users/kenjikv/Library/CloudStorage/OneDrive-Personal/Freelance/Maestria/Dirección Estrategica en Ingenieria de Software/V2E5/MODULO III - Pruebas de software/Clases/5. Ejemplos/Git/WhiteBox/src/main/java/org/example/LoopExample.java">
-<error line="5" column="5" severity="error" message="Class &apos;LoopExample&apos; looks like designed for extension (can be subclassed), but the method &apos;sumUpTo&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;LoopExample&apos; final or making the method &apos;sumUpTo&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="5" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
-<error line="5" column="24" severity="error" message="Parameter n should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-</file>
-<file name="/Users/kenjikv/Library/CloudStorage/OneDrive-Personal/Freelance/Maestria/Dirección Estrategica en Ingenieria de Software/V2E5/MODULO III - Pruebas de software/Clases/5. Ejemplos/Git/WhiteBox/src/main/java/org/example/Main.java">
-<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="3" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
-<error line="4" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
-<error line="4" column="29" severity="error" message="Parameter args should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-</file>
-<file name="/Users/kenjikv/Library/CloudStorage/OneDrive-Personal/Freelance/Maestria/Dirección Estrategica en Ingenieria de Software/V2E5/MODULO III - Pruebas de software/Clases/5. Ejemplos/Git/WhiteBox/src/main/java/org/example/MutationExample.java">
-<error line="5" column="5" severity="error" message="Class &apos;MutationExample&apos; looks like designed for extension (can be subclassed), but the method &apos;isEven&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MutationExample&apos; final or making the method &apos;isEven&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="5" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
-<error line="5" column="27" severity="error" message="Parameter num should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-</file>
-<file name="/Users/kenjikv/Library/CloudStorage/OneDrive-Personal/Freelance/Maestria/Dirección Estrategica en Ingenieria de Software/V2E5/MODULO III - Pruebas de software/Clases/5. Ejemplos/Git/WhiteBox/src/main/java/org/example/Calculator.java">
 <error line="5" column="5" severity="error" message="Class &apos;Calculator&apos; looks like designed for extension (can be subclassed), but the method &apos;add&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Calculator&apos; final or making the method &apos;add&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="5" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
 <error line="5" column="20" severity="error" message="Parameter a should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
@@ -106,13 +85,34 @@
 <error line="9" column="25" severity="error" message="Parameter a should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="9" column="32" severity="error" message="Parameter b should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 </file>
-<file name="/Users/kenjikv/Library/CloudStorage/OneDrive-Personal/Freelance/Maestria/Dirección Estrategica en Ingenieria de Software/V2E5/MODULO III - Pruebas de software/Clases/5. Ejemplos/Git/WhiteBox/src/main/java/org/example/DataFlowExample.java">
+<file name="C:\msc\03-pruebas-de-software\code\WhiteBox\src\main\java\org\example\ControlFlowExample.java">
+<error line="5" column="5" severity="error" message="Class &apos;ControlFlowExample&apos; looks like designed for extension (can be subclassed), but the method &apos;checkNumber&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControlFlowExample&apos; final or making the method &apos;checkNumber&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="5" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="5" column="31" severity="error" message="Parameter num should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="C:\msc\03-pruebas-de-software\code\WhiteBox\src\main\java\org\example\DataFlowExample.java">
 <error line="5" column="5" severity="error" message="Class &apos;DataFlowExample&apos; looks like designed for extension (can be subclassed), but the method &apos;multiply&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;DataFlowExample&apos; final or making the method &apos;multiply&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="5" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
 <error line="5" column="25" severity="error" message="Parameter a should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="5" column="32" severity="error" message="Parameter b should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 </file>
-<file name="/Users/kenjikv/Library/CloudStorage/OneDrive-Personal/Freelance/Maestria/Dirección Estrategica en Ingenieria de Software/V2E5/MODULO III - Pruebas de software/Clases/5. Ejemplos/Git/WhiteBox/src/main/java/org/example/StaticAnalysisExample.java">
+<file name="C:\msc\03-pruebas-de-software\code\WhiteBox\src\main\java\org\example\LoopExample.java">
+<error line="5" column="5" severity="error" message="Class &apos;LoopExample&apos; looks like designed for extension (can be subclassed), but the method &apos;sumUpTo&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;LoopExample&apos; final or making the method &apos;sumUpTo&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="5" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="5" column="24" severity="error" message="Parameter n should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="C:\msc\03-pruebas-de-software\code\WhiteBox\src\main\java\org\example\Main.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="3" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="4" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="4" column="29" severity="error" message="Parameter args should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="C:\msc\03-pruebas-de-software\code\WhiteBox\src\main\java\org\example\MutationExample.java">
+<error line="5" column="5" severity="error" message="Class &apos;MutationExample&apos; looks like designed for extension (can be subclassed), but the method &apos;isEven&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MutationExample&apos; final or making the method &apos;isEven&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="5" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="5" column="27" severity="error" message="Parameter num should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="C:\msc\03-pruebas-de-software\code\WhiteBox\src\main\java\org\example\StaticAnalysisExample.java">
 <error line="5" column="5" severity="error" message="Class &apos;StaticAnalysisExample&apos; looks like designed for extension (can be subclassed), but the method &apos;unusedMethod&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;StaticAnalysisExample&apos; final or making the method &apos;unusedMethod&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="5" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
 <error line="6" column="17" severity="error" message="&apos;10&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>

@@ -1,6 +1,6 @@
 CalculatorTest.class
 MutationTest.class
-bank/BankAccountTest.class
 LoopTest.class
 ControlFlowTest.class
+bank\BankAccountTest.class
 DataFlowTest.class
